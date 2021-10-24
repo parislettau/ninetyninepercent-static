@@ -1,0 +1,32 @@
+nav {
+  position: fixed;
+  height: var(--large);
+  background: white;
+  border: solid var(--home);
+  border-width: 0 0 1px 0;
+  width: 100%;
+  padding: 0 var(--default) 0 var(--default);
+  // z-index: 50;
+
+  @media(max-width: $mobile) {
+//    border: 0
+  }
+}
+
+ul.nav {
+  list-style: none;
+
+  .nav_logo {
+    float: left;
+    line-height: 1;
+
+  }
+
+  .nav_menu {
+    float: right;
+  }
+}
+
+.menu-pane-trigger {
+  cursor: pointer;
+}

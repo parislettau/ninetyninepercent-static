@@ -1,0 +1,58 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: opacity var(--normal) var(--ease);
+  transition: opacity var(--normal) var(--ease);
+
+
+  @media(max-width: 1024px) {  }
+
+  &:not(.ready) {
+    opacity: 0;
+  }
+
+  &.content-pane-open {
+    overflow-y: hidden;
+  }
+
+  &.filter-pane-open {}
+
+  &.menu-pane-open {
+    @media(max-width: $table_portrait) {
+      overflow-y: hidden;
+    }
+  }
+
+  &.support-pane-open {
+    @media(max-width: $tablet) {
+      overflow-y: hidden;
+    }
+
+  }
+
+
+  &.shown {
+
+    h1,
+    h2,
+    .hyperlink {
+      color: white;
+    }
+
+    .trigger {
+      background: white;
+    }
+
+  }
+
+}

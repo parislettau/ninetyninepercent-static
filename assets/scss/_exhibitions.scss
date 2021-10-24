@@ -1,0 +1,54 @@
+
+.exhibitions-list {
+    font-family: FKScreamerLegacy, sans-serif;
+    margin-top: 40vh;
+    width: 75%;
+    float: right;
+    a{
+        text-decoration: none;
+    }
+    .card {
+        margin-bottom: -80vh;
+        
+        &:last-of-type {
+            margin-bottom: -40vh;
+            .show-title{
+                font-size: 96px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 73px;
+                letter-spacing: 0em;
+                text-align: left;
+                box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+                border-radius: 15px;
+                // min-height: 200px;
+                // position: absolute;
+                text-transform: uppercase;
+                padding: var(--body-margins) var(--body-margins) calc(var(--body-margins) + 40vh) var(--body-margins);
+            }
+          }
+
+          .show-title{
+        
+            font-size: 96px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 73px;
+            letter-spacing: 0em;
+            text-align: left;
+            box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            // min-height: 200px;
+            // position: absolute;
+            text-transform: uppercase;
+            padding: var(--body-margins) var(--body-margins) calc(var(--body-margins) + 80vh) var(--body-margins);
+    
+          
+    
+    
+        }
+    
+
+}
+
+}

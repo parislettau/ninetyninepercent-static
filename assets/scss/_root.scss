@@ -1,0 +1,64 @@
+:root {
+  scroll-behavior: smooth;
+  font-size: 16px;
+
+
+  // //FONT SIZES - Golden Ratios
+  // --ultra: 7.00rem;
+  // --max: 5.5rem;
+  // --large: 3.5rem;
+  // --medium: 2rem;
+  // --mid: 1.5rem;
+  // --body: 1.1rem;
+  // --small: 20px;
+  // --smaller: 0.50rem;
+  // --tiny: 0.3rem;
+  // --caption: 14px;
+
+  // GLOBAL
+  --body-margins: 27px;
+  --content-margins: 44px;
+
+  //LINE HEIGHTS
+  --single: 1;
+  --double: 2;
+
+  //HIGHLIGHT COLOUR
+  --highlight: ;
+
+  //FONT COLOUR
+  --home: #3F3620;
+
+  //TRANSITION SPEED
+  --fast: 0.25s;
+  --normal: 0.5s;
+  --slow: 1s;
+
+  //TRANSITION EFFECT
+  --ease: cubic-bezier(0.65, 0.05, 0.36, 1);
+
+  //MARGINS
+  --narrow: 0;
+  --default: 0.25rem;
+  --wide: 0.5rem;
+  --wider: 0.75rem;
+  --widest: 1rem;
+
+
+  @media(max-width: $table_portrait) {
+
+
+  }
+
+  @media(max-width: $tablet) {
+
+
+
+  }
+
+  @media(max-width: $mobile) {
+
+
+
+  }
+}

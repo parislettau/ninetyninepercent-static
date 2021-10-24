@@ -1,0 +1,142 @@
+.home{
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+
+    .background-image{
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: grayscale(100%);
+        position:fixed;
+        width: 100vw;
+    }
+
+    .left{
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: var(--body-margins);
+
+        .logo {
+            
+        }
+
+        .about{
+            padding-top: var(--body-margins);
+            width: 288px;
+            text-align: left;
+
+        }
+
+    }
+
+    .right{
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: var(--body-margins);
+        text-align: right;
+
+        .subscribe{
+
+            font-style: normal;
+            font-weight: 800;
+
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 19px;
+            text-align: right;
+        }
+
+        .hours{
+            font-weight: 900;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 14px;
+            line-height: 98.5%;
+            /* or 14px */
+
+            text-align: right;
+            ul{
+                li{
+                    list-style: none;
+                }
+            }
+        }
+    }
+
+    .bottom{
+        position: fixed;
+        z-index: 100;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 136px;
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-areas: "details datetime";
+        background: #FFFFFF66;
+        box-shadow: 0px 4px 4px 0px #00000040;
+        
+
+
+
+        .details{
+            grid-area: details;
+            width: 300px;
+            padding: var(--body-margins);
+        }
+
+        .datetime{
+            font-family: FKScreamerLegacy, sans-serif;
+            grid-area: datetime;
+            display: flex;
+            flex-direction: row;
+            justify-content: end;
+            align-items: center;
+
+
+            #clock{
+                
+                font-size: 96px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 106px;
+                letter-spacing: 0em;
+                text-align: left;
+                
+
+            }
+
+            .date{
+                padding: var(--body-margins);
+                .content{
+                    // height: 70px;
+                    // width: 147px;
+                    // left: 1275px;
+                    // top: 35px;
+                    border-radius: 0px;
+                    background: #000000;
+                    color: white;
+                    font-size: 40px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 44px;
+
+                    
+                }
+            }
+
+
+
+        }
+    }
+
+
+}
